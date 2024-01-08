@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: grey;
+  background-color: rgb(4, 139, 168);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /**********************************
@@ -24,6 +25,10 @@ body {
   margin: 20px 0;
 }
 
+.container .instruction {
+  padding: 0 10px;
+}
+
 .container h2 {
   margin: 15px 0;
 }
@@ -35,5 +40,10 @@ body {
 
 .container .clicks {
   margin: 15px 0;
+}
+
+.container .clicks a {
+  text-decoration: none;
+  color: black;
 }
 /* FINISH WITH PADDING UNDER PICTURE */
